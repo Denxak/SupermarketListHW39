@@ -11,8 +11,8 @@ import java.util.List;
 public class SupermarketImpl implements Supermarket {
     private Collection<Product> products;
 
-    public SupermarketImpl(Collection<Product> products) {
-        this.products = products;
+    public SupermarketImpl() {
+        this.products = new ArrayList<>();
     }
 
     @Override
